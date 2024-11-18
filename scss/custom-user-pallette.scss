@@ -1,0 +1,33 @@
+.color-pallette-menu {
+  padding: 0.5rem;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  &__item {
+    min-height: 40px;
+    position: relative;
+    display: flex;
+    border: 1px solid var(--primary-100);
+    gap: 0.5em;
+    border-radius: var(--d-border-radius);
+    align-items: center;
+    padding: 0.25rem;
+  }
+  &__item-preview {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--d-border-radius);
+  }
+  &__item-name {
+    height: min-content;
+  }
+  input[type="radio"] {
+    all: unset;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    inset: 0;
+  }
+}
