@@ -26,7 +26,7 @@ export default class SitePallette extends Component {
         />
         <div
             class="color-pallette-menu__item-preview"
-            style="background-color: {{this.bgColor}}"
+            {{!-- style="background-color: --}}
         ></div>
         <span class="color-pallette-menu__item-name">{{@colorScheme.name}}</span>
         </div>
